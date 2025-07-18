@@ -1,0 +1,200 @@
+
+
+body{
+    background-color: #E0FBFC;
+    margin: 0;
+    /*Remove default margin*/
+    font-family: 'EB Garamond',serif;
+}
+
+.navbar img {
+    height: 150px;
+    width: auto;
+}
+.navbar{
+    background-color: #E0FBFC; /*The navbar has this soft, muted cyan colour*/
+    display: flex;
+    align-items: center;/*vertically center items on the navbar*/
+    padding: 10px 40px;
+}
+
+.navbar a:first-child{
+    margin-right: auto; /*push everything to the right*/
+}
+
+.links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    justify-content: space-evenly; /*center link horizontally*/
+    width: 100%;
+    
+}
+    
+.links li{
+    margin-right: 0 10px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'EB Garamond',serif ;
+    color: black;
+}
+/*This is where the banner styling starts*/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 234px;
+    overflow: hidden;
+}
+/*This is for the image of the banner*/
+.banner img{
+    width: 100%;
+    height: 234px;
+    display: block;
+    object-fit: cover;
+    display: block;
+}
+
+.Image-banner-title{
+    /*This is used to position the title to the center of the banner*/
+    position: absolute;/*Places element excatly where I want it*/
+    top: 50%;/*These move the element from the top-left corner of the container it is placed in*/
+    left: 50%;
+    transform: translate(-50%, -50%);/*perfectly centers in both directions*/
+    width: 100%;
+    box-sizing: border-box;/*padding and border inside the width*/
+    text-align: center;
+    line-height: 1.25;/*sets the space between lines of text*/
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    padding-bottom: 170px;
+    transition: opacity 350ms, padding 350ms, color 350ms;/*animate over 350 milliseconds*/
+    white-space: normal;/*allows the text to break into new lines*/
+}
+
+/*I am going to use flexbox container for the section, Exoplanets*/
+.Exoplanets-section{
+    display: flex;
+    flex-direction: row-reverse;/*Changes the way the flex items are placed in a row*/
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;/*Used to wrap the items inside the flex container into multiple lines*/
+    gap: 30px;
+}
+/*This is for the text in the Exoplanets section*/
+.Exoplanets-text{
+    flex: 1;/*to flex the screen when I minimize and maximize the screen*/
+    min-width: 650px;
+    max-width: 700px;
+}
+.Exoplanets-text p{
+    /*Targets the paragraph elements that are inside the element with the class of Exoplanets-text*/
+    font-size: 1.2rem;
+    line-height: 1.4;
+    /*This is used for vertical spacing between
+    - lines in the paragraph
+    - any multi line block of text*/
+    margin-bottom: 10px;
+}
+.Exoplanet-image{
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%;
+    flex-direction: row-reverse;
+}
+.Exoplanet-image img{
+    width: 100%;
+    height: auto;
+    border-radius:15px;/*make the corners rounded*/
+    object-fit: cover;
+    display: block;
+}
+.Exoplanets-second-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Exoplanets-second-text{
+    flex: 1;
+    min-width: 650px;
+    max-width: 700px;
+}
+.Exoplanets-second-text p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.Exoplanet-second-image{
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%;
+}
+.Exoplanet-second-image img{
+    width: 100%;
+    height: 330px;
+    border-radius:15px;
+    object-fit: cover;
+    display: block;
+}
+/*The divider that I am using will be black and also rounded*/
+.divider-screen-one{
+    border: none;
+    height: 3px; /*This is the thickness of the line*/
+    margin: 30px auto 0 auto;
+    background-color: black;/*The colour of the divider will be black*/
+    border-radius: 500px;/*rounded corners*/
+}
+/*This is the section that says for comets*/
+.comet-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+/*Image of the comet*/
+.comet-image{
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%;
+}
+.comet-image img{
+    width: 550px;
+    height: 550px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+}
+.comet-text{
+    flex: 1;
+    min-width: 750px;
+    max-width: 800px;
+}
+.comet-text p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+
+}/*
+@media (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+}*/

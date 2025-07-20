@@ -78,7 +78,7 @@ body{
     color: white;
     font-size: 24px;
     padding: 10px;
-    padding-bottom: 170px;
+    padding-bottom: 150px;
     transition: opacity 350ms, padding 350ms, color 350ms;/*animate over 350 milliseconds*/
     white-space: normal;/*allows the text to break into new lines*/
 }
@@ -183,7 +183,7 @@ body{
 }
 .comet-text{
     flex: 1;
-    min-width: 700px;
+    min-width: 650px;
     max-width: 800px;
 }
 .comet-text p{

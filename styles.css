@@ -161,45 +161,6 @@ body{
     border-radius: 500px;/*rounded corners*/
 }
 /*This is the section that says for comets*/
-/*.comet-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-/*Image of the comet*/
-/*.comet-image{
-    flex: 1;
-    min-width: 250px;
-    max-width: 50%;
-}
-.comet-image img{
-    width: 550px;
-    height: 550px;
-    border-radius: 15px;
-    object-fit: cover;
-    display: block;
-}
-.comet-text{
-    flex: 1;
-    min-width: 750px;
-    max-width: 800px;
-}
-.comet-text p{
-    font-size: 1.2rem;
-    line-height: 1.4;
-    margin-bottom: 10px;
-
-}/*
-@media (max-width: 768px) {
-    body {
-        width: 768px;
-    }
-
-}*/
-/*This is the section that says for comets*/
 .comet-section {
     display: flex;
     justify-content: space-between;
@@ -235,3 +196,10 @@ body{
     line-height: 1.6;
     margin-bottom: 10px;
 }
+/*
+@media (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+}*/

@@ -173,8 +173,8 @@ body{
 /*Image of the comet*/
 .asteroids-image {
     flex: 1;
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 656px;
+    max-width: 656px;
 }
 
 .asteroids-image img {

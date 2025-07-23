@@ -200,12 +200,6 @@ body{
         flex-direction: column;
         align-items: center;
     }
-
-    .asteroids-image,
-    .asteroids-text {
-        max-width: 100%;
-    }
-
     .asteroids-text {
         padding-top: 20px;
     }

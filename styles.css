@@ -202,19 +202,3 @@ body{
     grid-column: 4 / 9;
     grid-row: 3 / 7;
 }
-/* Responsive layout for smaller screens */
-@media (max-width: 1200px) {
-    .asteroids-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .asteroids-image,
-    .asteroids-text {
-        max-width: 100%;
-    }
-
-    .asteroids-text {
-        padding-top: 20px;
-    }
-}

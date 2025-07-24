@@ -202,3 +202,10 @@ body{
     grid-column: 4 / 9;
     grid-row: 3 / 7;
 }
+.divider-screen-two{
+     border: none;
+    height: 3px; /*This is the thickness of the line*/
+    margin: 30px auto 0 auto;
+    background-color: black;/*The colour of the divider will be black*/
+    border-radius: 500px;/*rounded corners*/
+}

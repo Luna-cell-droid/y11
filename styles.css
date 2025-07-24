@@ -172,11 +172,9 @@ body{
 
 .asteroids-image img,
 .quasar-image img {
-    width: 800px;
-    height: 850px;
-    object-fit: cover;
-    border-radius: 15px;
-    display: block;
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%;
 }
 
 .asteroids-image {
@@ -203,9 +201,9 @@ body{
     grid-row: 3 / 7;
 }
 .divider-screen-two{
-     border: none;
+    border: none;
     height: 3px; /*This is the thickness of the line*/
     margin: 30px auto 0 auto;
     background-color: black;/*The colour of the divider will be black*/
-    border-radius: 500px;/*rounded corners*/
+    border-radius: 500px;/
 }

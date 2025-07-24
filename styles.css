@@ -172,9 +172,11 @@ body{
 
 .asteroids-image img,
 .quasar-image img {
-    flex: 1;
-    min-width: 250px;
-    max-width: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
 }
 
 .asteroids-image {

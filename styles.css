@@ -172,8 +172,8 @@ body{
 
 .asteroids-image img,
 .quasar-image img {
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 850px;
     object-fit: cover;
     border-radius: 15px;
     display: block;

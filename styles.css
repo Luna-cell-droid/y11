@@ -204,8 +204,8 @@ body{
 }
 .divider-screen-two{
     border: none;
-    height: 3px; /*This is the thickness of the line*/
+    height: 3px;
     margin: 30px auto 0 auto;
-    background-color: black;/*The colour of the divider will be black*/
+    background-color: black;
     border-radius: 500px;/
 }

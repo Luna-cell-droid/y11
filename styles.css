@@ -209,3 +209,9 @@ body{
     background-color: black;
     border-radius: 500px;/
 }
+/*footer styling*/ 
+.end-page{
+    padding-left: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

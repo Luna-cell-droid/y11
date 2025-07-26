@@ -215,3 +215,9 @@ body{
     font-size: 1.2rem;
     line-height: 1.6;
 }
+.title{
+    text-align: center;
+    background-color: #253237;/*Dark background for the title of the Super Earth*/
+    color:white;/*White for the title*/
+    padding: 20px;
+}

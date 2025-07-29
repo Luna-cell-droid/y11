@@ -77,7 +77,6 @@ body{
     font-size: 24px;
     padding: 10px;
     padding-bottom: 170px;
-    padding-top: 76px;
     transition: opacity 350ms, padding 350ms, color 350ms;/*animate over 350 milliseconds*/
     white-space: normal;/*allows the text to break into new lines*/
 }

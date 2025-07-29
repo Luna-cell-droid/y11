@@ -330,5 +330,5 @@ body{
     font-size: .8rem;
 }
 .hide {
-    display: none; /*This is used to hide the element that is not needed while searching*/
+    display: none; /*This is used to hide the element that is not needed while searching and sort it*/
 }

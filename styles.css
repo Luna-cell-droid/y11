@@ -323,12 +323,22 @@ body{
     background-color:#C2DFE3;/*Different background colour for different super-earth section*/
     padding: 30px;
 }
-.End-bar{
+.End-bar {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
+    justify-content: center;
+    align-items: center;
     background-color: #253237;
-    padding: 30px;
+    padding-inline: 30px;/*horizontal padding only*/
+    padding-block: 0;/*remove vertical padding*/
+    gap: 20px;
+    height: 100px;/*force consistent height*/
+}
+.divider-screen-three {
+    width: 1px;
+    background-color: white;
+    height: 100%;
+    align-self: stretch;
+    transform: translateZ(0); /*helps with consistency*/
 }
 /*This is for the search bar*/
 .search {

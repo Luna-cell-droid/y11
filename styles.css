@@ -168,7 +168,7 @@ body{
     background-color: black;/*The colour of the divider will be black*/
     border-radius: 500px;/*rounded corners*/
 }
-
+/*This is the section of Asteroids and this is the styling for the information under the divider-screen-one*/
 .asteroids-section {
     display: grid;
     grid-template-columns: repeat(8, 1fr); /* Better shorthand */

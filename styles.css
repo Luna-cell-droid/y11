@@ -3,6 +3,8 @@ body{
     margin: 0;
     /*Remove default margin*/
     font-family: 'EB Garamond',serif;
+    min-width: 670px;
+    max-width: 6000px;
 }
 
 .navbar img {

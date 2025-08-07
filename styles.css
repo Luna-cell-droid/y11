@@ -4,6 +4,7 @@ body{
     /*Remove default margin*/
     font-family: 'EB Garamond',serif;
 }
+/*This is the styling for the navbar*/
 .navbar img {
     height: 150px;
     width: auto;
@@ -211,6 +212,7 @@ body{
     grid-column: 4 / 9;
     grid-row: 3 / 7;
 }
+/*This is the second divider of the index page*/
 .divider-screen-two{
     border: none;
     height: 3px;
